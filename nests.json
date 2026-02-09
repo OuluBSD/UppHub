@@ -1,0 +1,30 @@
+{
+  "name": "OuluBSD Hub",
+  "nests": [
+    {
+      "name": "ConvNetCpp",
+      "packages": [
+        "ConvNet",
+        "ConvNetCtrl"
+      ],
+      "description": "C++ implementation of Convolutional Neural Networks",
+      "repository": "https://github.com/OuluLinux/ConvNetCpp.git",
+      "status": "stable",
+      "category": "scientific",
+      "readme": "https://raw.githubusercontent.com/OuluLinux/ConvNetCpp/main/README.md",
+      "assemblies": ["src", "examples"]
+    },
+    {
+      "name": "Overlook",
+      "packages": [
+        "Overlook"
+      ],
+      "description": "A system for monitoring and analyzing data",
+      "repository": "https://github.com/OuluLinux/Overlook.git",
+      "status": "stable",
+      "category": "application",
+      "readme": "https://raw.githubusercontent.com/OuluLinux/Overlook/main/README.md",
+      "assemblies": ["src", "examples"]
+    }
+  ]
+}
